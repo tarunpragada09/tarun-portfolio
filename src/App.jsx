@@ -339,14 +339,28 @@ function App() {
               <span>Streamlit</span>
             </div>
 
-            <a
-              href="https://github.com/tarunpragada09/spam-mail-detection"
-              target="_blank"
-              rel="noreferrer"
-              className="project-button"
-            >
-              View Project on GitHub ↗
-            </a>
+            {/* PROJECT BUTTONS */}
+            <div className="project-buttons">
+
+              <a
+                href="https://spam-mail-detection-b3lcbc6e4mta89d7yewneb.streamlit.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-button"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="https://github.com/tarunpragada09/spam-mail-detection"
+                target="_blank"
+                rel="noreferrer"
+                className="project-button"
+              >
+                GitHub ↗
+              </a>
+
+            </div>
 
           </div>
         </div>

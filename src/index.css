@@ -2387,3 +2387,14 @@ footer {
     scroll-behavior: auto !important;
   }
 }
+.project-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.project-buttons .project-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
